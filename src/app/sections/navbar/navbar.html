@@ -7,13 +7,17 @@
   <div class="font-bold text-xl text-blue-600 dark:text-blue-400">MyPortfolio</div>
 
   <ul class="flex gap-8">
-    <li><a href="#hero" class="hover:text-blue-500 transition">Home</a></li>
-    <li><a href="#about" class="hover:text-blue-500 transition">About</a></li>
-    <li><a href="#experience" class="hover:text-blue-500 transition">Experience</a></li>
-    <li><a href="#contact" class="hover:text-blue-500 transition">Contact</a></li>
+    <li><a href="#hero" class="hover:text-blue-500 dark:hover:text-yellow-400 transition">Home</a></li>
+    <li><a href="#about" class="hover:text-blue-500 dark:hover:text-yellow-400 transition">About</a></li>
+    <li><a href="#experience" class="hover:text-blue-500 dark:hover:text-yellow-400 transition">Experience</a></li>
+    <li><a href="#contact" class="hover:text-blue-500 dark:hover:text-yellow-400 transition">Contact</a></li>
   </ul>
 
-  <button (click)="toggleTheme()" class="ml-6 px-4 py-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:scale-105 transition">
+  <button
+    (click)="toggleTheme()"
+    class="ml-6 px-4 py-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:scale-105 transition"
+  >
     Toggle Theme
   </button>
 </nav>
+
