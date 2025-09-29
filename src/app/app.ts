@@ -4,11 +4,13 @@ import { About } from './sections/about/about';
 import { Experience } from './sections/experience/experience';
 import { Contact } from './sections/contact/contact';
 import { Navbar } from './sections/navbar/navbar';
+import { FadeInDirective } from './fade-in.directive';
+import { ParallaxDirective } from './parallax.directive';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [Hero, About, Experience, Contact, Navbar],
+  imports: [Hero, About, Experience, Contact, Navbar, FadeInDirective, ParallaxDirective],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
